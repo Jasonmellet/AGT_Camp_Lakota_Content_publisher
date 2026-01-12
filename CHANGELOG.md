@@ -7,14 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### In Progress
+- Testing with live WordPress site
+- Client content integration
+
 ### Planned
-- WordPress REST API authentication module
-- Content processor for parsing pages and posts
-- Image uploader with metadata handling
-- Landing pages publisher
-- Blog posts publisher
-- Internal linking system
-- Schema and SEO optimization
+- Additional schema types
+- Automated category/tag creation
+- Batch processing optimizations
+
+---
+
+## [0.2.0] - 2026-01-12
+
+### Added
+- Complete WordPress REST API authentication module
+- Content processor for pages and posts with validation
+- Image uploader with metadata support
+- SEO metadata and schema markup handler
+- Internal linking system with placeholder support
+- Main publisher script with rich console output
+- Configuration management with environment variables
+- Connection test utility script
+- Example content templates
+- Comprehensive content format guide
+- Support for featured images
+- Dry-run mode for safe testing
+- Error handling and logging
+
+### Technical
+- Modular architecture following KISS & DRY principles
+- Python dependencies: requests, python-dotenv, Pillow, jsonschema, rich
+- Session-based authentication
+- Permission checking
+- Content validation before publishing
 
 ---
 
