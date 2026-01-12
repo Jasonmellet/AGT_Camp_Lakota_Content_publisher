@@ -33,3 +33,12 @@ tmp/
 
 # Test outputs
 test_output/
+
+# Raw content (before conversion)
+raw_content/pages/*
+raw_content/posts/*
+raw_content/images/*
+!raw_content/pages/.gitkeep
+!raw_content/posts/.gitkeep
+!raw_content/images/.gitkeep
+!raw_content/README.md
