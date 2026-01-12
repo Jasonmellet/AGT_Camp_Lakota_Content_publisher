@@ -56,7 +56,9 @@ AGT_Camp_Lakota/
 
 ## Status Tracking
 
-- [ ] Project setup complete
+- [x] Project setup complete ✅
+- [x] Git repository initialized and pushed to GitHub ✅
+- [x] Documentation complete ✅
 - [ ] Content files added
 - [ ] WordPress credentials configured
 - [ ] Landing pages published
@@ -68,7 +70,17 @@ AGT_Camp_Lakota/
 
 - [ROADMAP.md](ROADMAP.md) - Development phases and timeline
 - [TECH_SPEC.md](TECH_SPEC.md) - Technical specifications and requirements
+- [SECURITY.md](SECURITY.md) - Security guide and authentication setup
+- [GIT_WORKFLOW.md](GIT_WORKFLOW.md) - Git branching strategy and workflow
 - [CONTENT_REQUIREMENTS.md](CONTENT_REQUIREMENTS.md) - What we need from you
+
+## Git Repository
+
+**GitHub:** [AGT_Camp_Lakota_Content_publisher](https://github.com/Jasonmellet/AGT_Camp_Lakota_Content_publisher)
+
+**Current Version:** v0.1.0  
+**Current Branch:** `develop`  
+**Branches:** `main` (stable), `develop` (active development)
 
 ## Support
 
