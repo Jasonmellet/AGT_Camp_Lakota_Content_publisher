@@ -68,11 +68,19 @@ AGT_Camp_Lakota/
 
 ## Documentation
 
+### Core Documentation
 - [ROADMAP.md](ROADMAP.md) - Development phases and timeline
 - [TECH_SPEC.md](TECH_SPEC.md) - Technical specifications and requirements
+- [CONTENT_REQUIREMENTS.md](CONTENT_REQUIREMENTS.md) - What we need from you
+
+### Security & Git
 - [SECURITY.md](SECURITY.md) - Security guide and authentication setup
 - [GIT_WORKFLOW.md](GIT_WORKFLOW.md) - Git branching strategy and workflow
-- [CONTENT_REQUIREMENTS.md](CONTENT_REQUIREMENTS.md) - What we need from you
+
+### Backup & Management
+- [BACKUP_RESTORE.md](BACKUP_RESTORE.md) - Complete backup and recovery guide
+- [CHANGELOG.md](CHANGELOG.md) - Version history and changes
+- [GITHUB_SETUP.md](GITHUB_SETUP.md) - Repository configuration guide
 
 ## Git Repository
 
