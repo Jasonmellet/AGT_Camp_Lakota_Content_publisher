@@ -9,8 +9,9 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from config import Config
-from modules.auth import WordPressAuth
+from agt_publisher_core.client_config import load_client_config, compare_wp_host, compare_wp_target
+from agt_publisher_core.config import Config
+from agt_publisher_core.modules.auth import WordPressAuth
 
 console = Console()
 
@@ -33,6 +34,25 @@ def main():
     console.print(f"\n[cyan]Site URL:[/cyan] {Config.WP_SITE_URL}")
     console.print(f"[cyan]Username:[/cyan] {Config.WP_USERNAME}")
     console.print(f"[cyan]Dry Run:[/cyan] {Config.is_dry_run()}\n")
+
+    # Optional: verify client.config.json matches .env target (guardrail)
+    try:
+        client = load_client_config()
+        ok1, msg1 = compare_wp_target(expected_site_url=client.expectedWpSiteUrl, actual_site_url=Config.WP_SITE_URL)
+        ok2, msg2 = compare_wp_host(expected_host=client.expectedWpSiteHost, actual_site_url=Config.WP_SITE_URL)
+        if ok1 and ok2:
+            console.print(f"[green]✓ Client config matches WP_SITE_URL for:[/green] {client.clientName}\n")
+        else:
+            console.print("[bold yellow]⚠️ Client config mismatch[/bold yellow]")
+            if not ok1:
+                console.print(f"[yellow]- {msg1}[/yellow]")
+            if not ok2:
+                console.print(f"[yellow]- {msg2}[/yellow]")
+            console.print()
+    except FileNotFoundError:
+        console.print("[yellow]⚠️ client.config.json not found (create it from client.config.example.json for safety).[/yellow]\n")
+    except Exception as e:
+        console.print(f"[yellow]⚠️ client.config.json check skipped: {e}[/yellow]\n")
     
     # Test connection
     console.print("[bold]Testing connection...[/bold]")

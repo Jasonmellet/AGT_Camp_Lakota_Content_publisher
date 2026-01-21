@@ -16,29 +16,36 @@ raw_content/
 You can provide content in **any** of these formats:
 
 ### Word Documents (.docx)
+
 - Microsoft Word files
 - Google Docs exported as .docx
 
 ### PDF Files (.pdf)
+
 - PDF exports from any tool
 
 ### Markdown (.md)
+
 - Plain markdown files
 - Great for structured content
 
 ### HTML (.html)
+
 - Raw HTML files
 - Exported from editors
 
 ### Text Files (.txt)
+
 - Plain text with formatting
 - Include notes about structure
 
 ### Google Docs
+
 - Share the link (with view access)
 - Or export as .docx
 
 ### Any Other Format
+
 - Just add it and let me know!
 - I'll figure it out
 
@@ -49,10 +56,12 @@ You can provide content in **any** of these formats:
 For each landing page or blog post, include as much as you have:
 
 ### Required
+
 - **Title**
 - **Main content** (body text)
 
 ### Recommended (but I can help if missing)
+
 - Meta title (for SEO)
 - Meta description (for SEO)
 - Images to use
@@ -60,6 +69,7 @@ For each landing page or blog post, include as much as you have:
 - Internal links you want
 
 ### Optional
+
 - Categories (for blog posts)
 - Tags (for blog posts)
 - Author name
@@ -71,6 +81,7 @@ For each landing page or blog post, include as much as you have:
 ## 🎯 How to Add Your Content
 
 ### Option 1: Drag & Drop
+
 1. Open Finder
 2. Navigate to: `Desktop/AGT_Camp_Lakota/raw_content/`
 3. Drag your files into the appropriate folder:
@@ -79,6 +90,7 @@ For each landing page or blog post, include as much as you have:
    - Images → `images/`
 
 ### Option 2: Copy/Paste
+
 ```bash
 # Copy your files
 cp ~/Downloads/your-page.docx raw_content/pages/
@@ -87,6 +99,7 @@ cp ~/Downloads/*.jpg raw_content/images/
 ```
 
 ### Option 3: Tell Me
+
 Just say "the content is ready" and I'll read and convert everything!
 
 ---
