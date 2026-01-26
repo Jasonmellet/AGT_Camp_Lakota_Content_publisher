@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "clientName": "The Boar Blanket",
+  "expectedWpSiteUrl": "https://boarblanket.com",
+  "expectedWpSiteHost": "boarblanket.com",
+  "expectedWpSiteName": "boarblanket.com",
+  "environment": "production",
+  "linkAliases": {},
+  "protectedMarkersBySlug": {}
+}
