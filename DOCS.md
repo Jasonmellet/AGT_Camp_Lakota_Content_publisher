@@ -11,6 +11,9 @@ All documentation lives in `docs/`. Start here:
 - **Backup/restore**: `docs/BACKUP_RESTORE.md`
 - **New client checklist**: `docs/NEW_CLIENT_CHECKLIST.md`
 - **Google API enablement**: `docs/GOOGLE_CLOUD_API_ENABLEMENT.md`
+- **Staged AI content workflow**: `docs/STAGED_AI_CONTENT_WORKFLOW.md`
+- **AI quality gates**: `docs/AI_CONTENT_QUALITY_GATES.md`
+- **What to commit vs ignore**: `docs/WHAT_TO_COMMIT.md`
 
 SEO planning (Sheets/Semrush/DataForSEO):
 

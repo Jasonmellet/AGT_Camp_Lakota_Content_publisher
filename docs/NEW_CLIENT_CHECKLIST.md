@@ -60,3 +60,15 @@ Generate benchmark CSVs:
 ```
 
 When GSC/GA4 access is ready, re-run without skip flags and push tabs to Sheets.
+
+---
+
+## 6) Optional: staged AI content workflow (draft-first)
+
+If you plan to generate long-form content with AI and publish via the WP REST API, use the staged approach:
+
+- Read: `docs/STAGED_AI_CONTENT_WORKFLOW.md`
+- Enforce gates: `docs/AI_CONTENT_QUALITY_GATES.md`
+- Decide what to version: `docs/WHAT_TO_COMMIT.md`
+
+**Rule:** generate and validate locally first, then publish **one piece at a time** as a **draft**.
